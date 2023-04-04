@@ -1,4 +1,4 @@
-const { clientId, guildId, token } = require('../config.json');
+const { mjId, clientId, guildId, token } = require('../config.json');
 const { Client, GatewayIntentBits, SlashCommandBuilder, IntentsBitField } = require('discord.js');
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
